@@ -1,0 +1,16 @@
+AllCops:
+  NewCops: enable
+
+require: rubocop-rspec
+
+Metrics:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
